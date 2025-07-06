@@ -2,23 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # ───── nuevo remote ─────
-    - name: niceview
-      url-base: https://github.com/joric
-      # si usas otro fork, cambia la URL-base
-
+    # Additional modules containing boards/shields/custom code can be listed here as well
+    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
-    # ───── ZMK (igual que antes) ─────
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-
-    # ───── nuevo proyecto ─────
-    - name: nice_view
-      remote: niceview
-      revision: main
-      path: modules/lib/nice_view
-
   self:
     path: config

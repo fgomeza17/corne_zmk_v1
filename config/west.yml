@@ -11,7 +11,7 @@ manifest:
       revision: main
       import: app/west.yml
     # support nice_oled and nice_epaper
-    - name: zmk-nice-view
+    - name: zmk_nice_view
       remote: fgomeza17
       revision: main
   self:

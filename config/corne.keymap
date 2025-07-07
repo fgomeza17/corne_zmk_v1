@@ -38,7 +38,7 @@
    &kp LCTRL  &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV   &kp C_NEXT   &kp C_PP       &trans   &trans     &trans   &trans    &trans &trans
                                     &kp RET     &trans       &kp SPACE      &kp SPACE  &trans   &kp RET
                         >;
-                        label = " <-";
+                        label = "PELU";
                 };
 
                 raise_layer {
@@ -53,7 +53,7 @@
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
                              &kp LGUI &trans   &kp SPACE   &kp SPACE &trans    &kp RET
                         >;
-                        label = " ->";
+                        label = "SAMI";
                 };
         };
 };

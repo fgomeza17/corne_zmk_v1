@@ -1,25 +1,18 @@
 manifest:
   remotes:
-    # ───── repos oficiales de ZMK ─────
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-
-    # ───── nuevo remote para el módulo OLED ─────
-    - name: niceview
-      url-base: https://github.com/mctechnology17   # fork que contiene zmk-nice-oled
-
+    # support nice_oled and nice_epaper
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
   projects:
-    # ───── ZMK (igual que antes) ─────
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-
-    # ───── módulo nice_oled ─────
+    # support nice_oled and nice_epaper
     - name: zmk-nice-oled
-      remote: niceview
+      remote: mctechnology17
       revision: main
-      path: modules/shields/zmk-nice-oled
-
   self:
     path: config

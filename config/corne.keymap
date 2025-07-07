@@ -24,7 +24,7 @@
    &kp LCTRL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                   &kp LGUI &mo 1 &kp SPACE   &kp SPACE &mo 2 &kp RET
                         >;
-                        label = "Corne";
+                        label = " RS";
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@
    &kp LCTRL  &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV   &kp C_NEXT   &kp C_PP       &trans   &trans     &trans   &trans    &trans &trans
                                     &kp RET     &trans       &kp SPACE      &kp SPACE  &trans   &kp RET
                         >;
-                        label = "Lower";
+                        label = " <-";
                 };
 
                 raise_layer {
@@ -53,7 +53,7 @@
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
                              &kp LGUI &trans   &kp SPACE   &kp SPACE &trans    &kp RET
                         >;
-                        label = "Raise";
+                        label = " ->";
                 };
         };
 };
